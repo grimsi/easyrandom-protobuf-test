@@ -51,6 +51,13 @@
 
     <build>
         <plugins>
+            <!-- Maven Surefire -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+
             <!-- Protobuf source generation plugin -->
             <plugin>
                 <groupId>com.github.os72</groupId>
