@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+class EasyRandomProtobufTest {
 
     EasyRandom easyRandom = new EasyRandom();
 
     @Test
-    void main() {
+    void thisTestWillFail() {
         easyRandom.nextObject(Igdb.InvolvedCompany.class);
     }
 }
